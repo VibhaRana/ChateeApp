@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D124CE2C2407C9B500D1A964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE2B2407C9B500D1A964 /* AppDelegate.swift */; };
+		D124CE2E2407C9B500D1A964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE2D2407C9B500D1A964 /* SceneDelegate.swift */; };
+		D124CE302407C9B500D1A964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE2F2407C9B500D1A964 /* ViewController.swift */; };
+		D124CE332407C9B500D1A964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D124CE312407C9B500D1A964 /* Main.storyboard */; };
+		D124CE352407C9B600D1A964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D124CE342407C9B600D1A964 /* Assets.xcassets */; };
+		D124CE382407C9B600D1A964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D124CE362407C9B600D1A964 /* LaunchScreen.storyboard */; };
+		D124CE432407C9B600D1A964 /* ChateeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE422407C9B600D1A964 /* ChateeTests.swift */; };
+		D124CE4E2407C9B600D1A964 /* ChateeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE4D2407C9B600D1A964 /* ChateeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D124CE3F2407C9B600D1A964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D124CE202407C9B500D1A964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D124CE272407C9B500D1A964;
+			remoteInfo = Chatee;
+		};
+		D124CE4A2407C9B600D1A964 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D124CE202407C9B500D1A964 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D124CE272407C9B500D1A964;
+			remoteInfo = Chatee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D124CE282407C9B500D1A964 /* Chatee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D124CE2B2407C9B500D1A964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D124CE2D2407C9B500D1A964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D124CE2F2407C9B500D1A964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D124CE322407C9B500D1A964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D124CE342407C9B600D1A964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D124CE372407C9B600D1A964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D124CE392407C9B600D1A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D124CE3E2407C9B600D1A964 /* ChateeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChateeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D124CE422407C9B600D1A964 /* ChateeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChateeTests.swift; sourceTree = "<group>"; };
+		D124CE442407C9B600D1A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D124CE492407C9B600D1A964 /* ChateeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChateeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D124CE4D2407C9B600D1A964 /* ChateeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChateeUITests.swift; sourceTree = "<group>"; };
+		D124CE4F2407C9B600D1A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D124CE252407C9B500D1A964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124CE3B2407C9B600D1A964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124CE462407C9B600D1A964 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D124CE1F2407C9B500D1A964 = {
+			isa = PBXGroup;
+			children = (
+				D124CE2A2407C9B500D1A964 /* Chatee */,
+				D124CE412407C9B600D1A964 /* ChateeTests */,
+				D124CE4C2407C9B600D1A964 /* ChateeUITests */,
+				D124CE292407C9B500D1A964 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D124CE292407C9B500D1A964 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D124CE282407C9B500D1A964 /* Chatee.app */,
+				D124CE3E2407C9B600D1A964 /* ChateeTests.xctest */,
+				D124CE492407C9B600D1A964 /* ChateeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D124CE2A2407C9B500D1A964 /* Chatee */ = {
+			isa = PBXGroup;
+			children = (
+				D124CE2B2407C9B500D1A964 /* AppDelegate.swift */,
+				D124CE2D2407C9B500D1A964 /* SceneDelegate.swift */,
+				D124CE2F2407C9B500D1A964 /* ViewController.swift */,
+				D124CE312407C9B500D1A964 /* Main.storyboard */,
+				D124CE342407C9B600D1A964 /* Assets.xcassets */,
+				D124CE362407C9B600D1A964 /* LaunchScreen.storyboard */,
+				D124CE392407C9B600D1A964 /* Info.plist */,
+			);
+			path = Chatee;
+			sourceTree = "<group>";
+		};
+		D124CE412407C9B600D1A964 /* ChateeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D124CE422407C9B600D1A964 /* ChateeTests.swift */,
+				D124CE442407C9B600D1A964 /* Info.plist */,
+			);
+			path = ChateeTests;
+			sourceTree = "<group>";
+		};
+		D124CE4C2407C9B600D1A964 /* ChateeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D124CE4D2407C9B600D1A964 /* ChateeUITests.swift */,
+				D124CE4F2407C9B600D1A964 /* Info.plist */,
+			);
+			path = ChateeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D124CE272407C9B500D1A964 /* Chatee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D124CE522407C9B600D1A964 /* Build configuration list for PBXNativeTarget "Chatee" */;
+			buildPhases = (
+				D124CE242407C9B500D1A964 /* Sources */,
+				D124CE252407C9B500D1A964 /* Frameworks */,
+				D124CE262407C9B500D1A964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatee;
+			productName = Chatee;
+			productReference = D124CE282407C9B500D1A964 /* Chatee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D124CE3D2407C9B600D1A964 /* ChateeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D124CE552407C9B600D1A964 /* Build configuration list for PBXNativeTarget "ChateeTests" */;
+			buildPhases = (
+				D124CE3A2407C9B600D1A964 /* Sources */,
+				D124CE3B2407C9B600D1A964 /* Frameworks */,
+				D124CE3C2407C9B600D1A964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D124CE402407C9B600D1A964 /* PBXTargetDependency */,
+			);
+			name = ChateeTests;
+			productName = ChateeTests;
+			productReference = D124CE3E2407C9B600D1A964 /* ChateeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D124CE482407C9B600D1A964 /* ChateeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D124CE582407C9B600D1A964 /* Build configuration list for PBXNativeTarget "ChateeUITests" */;
+			buildPhases = (
+				D124CE452407C9B600D1A964 /* Sources */,
+				D124CE462407C9B600D1A964 /* Frameworks */,
+				D124CE472407C9B600D1A964 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D124CE4B2407C9B600D1A964 /* PBXTargetDependency */,
+			);
+			name = ChateeUITests;
+			productName = ChateeUITests;
+			productReference = D124CE492407C9B600D1A964 /* ChateeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D124CE202407C9B500D1A964 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Anurag Arora";
+				TargetAttributes = {
+					D124CE272407C9B500D1A964 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D124CE3D2407C9B600D1A964 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D124CE272407C9B500D1A964;
+					};
+					D124CE482407C9B600D1A964 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D124CE272407C9B500D1A964;
+					};
+				};
+			};
+			buildConfigurationList = D124CE232407C9B500D1A964 /* Build configuration list for PBXProject "Chatee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D124CE1F2407C9B500D1A964;
+			productRefGroup = D124CE292407C9B500D1A964 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D124CE272407C9B500D1A964 /* Chatee */,
+				D124CE3D2407C9B600D1A964 /* ChateeTests */,
+				D124CE482407C9B600D1A964 /* ChateeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D124CE262407C9B500D1A964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D124CE382407C9B600D1A964 /* LaunchScreen.storyboard in Resources */,
+				D124CE352407C9B600D1A964 /* Assets.xcassets in Resources */,
+				D124CE332407C9B500D1A964 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124CE3C2407C9B600D1A964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124CE472407C9B600D1A964 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D124CE242407C9B500D1A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D124CE302407C9B500D1A964 /* ViewController.swift in Sources */,
+				D124CE2C2407C9B500D1A964 /* AppDelegate.swift in Sources */,
+				D124CE2E2407C9B500D1A964 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124CE3A2407C9B600D1A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D124CE432407C9B600D1A964 /* ChateeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D124CE452407C9B600D1A964 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D124CE4E2407C9B600D1A964 /* ChateeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D124CE402407C9B600D1A964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D124CE272407C9B500D1A964 /* Chatee */;
+			targetProxy = D124CE3F2407C9B600D1A964 /* PBXContainerItemProxy */;
+		};
+		D124CE4B2407C9B600D1A964 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D124CE272407C9B500D1A964 /* Chatee */;
+			targetProxy = D124CE4A2407C9B600D1A964 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D124CE312407C9B500D1A964 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D124CE322407C9B500D1A964 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D124CE362407C9B600D1A964 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D124CE372407C9B600D1A964 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D124CE502407C9B600D1A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D124CE512407C9B600D1A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D124CE532407C9B600D1A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibha.Chatee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D124CE542407C9B600D1A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Chatee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibha.Chatee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D124CE562407C9B600D1A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChateeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibha.ChateeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatee.app/Chatee";
+			};
+			name = Debug;
+		};
+		D124CE572407C9B600D1A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChateeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibha.ChateeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chatee.app/Chatee";
+			};
+			name = Release;
+		};
+		D124CE592407C9B600D1A964 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChateeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibha.ChateeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatee;
+			};
+			name = Debug;
+		};
+		D124CE5A2407C9B600D1A964 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChateeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vibha.ChateeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Chatee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D124CE232407C9B500D1A964 /* Build configuration list for PBXProject "Chatee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D124CE502407C9B600D1A964 /* Debug */,
+				D124CE512407C9B600D1A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D124CE522407C9B600D1A964 /* Build configuration list for PBXNativeTarget "Chatee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D124CE532407C9B600D1A964 /* Debug */,
+				D124CE542407C9B600D1A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D124CE552407C9B600D1A964 /* Build configuration list for PBXNativeTarget "ChateeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D124CE562407C9B600D1A964 /* Debug */,
+				D124CE572407C9B600D1A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D124CE582407C9B600D1A964 /* Build configuration list for PBXNativeTarget "ChateeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D124CE592407C9B600D1A964 /* Debug */,
+				D124CE5A2407C9B600D1A964 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D124CE202407C9B500D1A964 /* Project object */;
+}
