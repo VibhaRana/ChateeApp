@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1096214E5371A06D84364D /* Pods_Chatee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91E778AF2BC0993B772CD03 /* Pods_Chatee.framework */; };
 		D124CE2C2407C9B500D1A964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE2B2407C9B500D1A964 /* AppDelegate.swift */; };
 		D124CE2E2407C9B500D1A964 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE2D2407C9B500D1A964 /* SceneDelegate.swift */; };
 		D124CE302407C9B500D1A964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE2F2407C9B500D1A964 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 		D124CE382407C9B600D1A964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D124CE362407C9B600D1A964 /* LaunchScreen.storyboard */; };
 		D124CE432407C9B600D1A964 /* ChateeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE422407C9B600D1A964 /* ChateeTests.swift */; };
 		D124CE4E2407C9B600D1A964 /* ChateeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D124CE4D2407C9B600D1A964 /* ChateeUITests.swift */; };
+		D124CE5C2407D36900D1A964 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D124CE5B2407D36900D1A964 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		463A3358EFD38D08493ED072 /* Pods-Chatee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatee.release.xcconfig"; path = "Target Support Files/Pods-Chatee/Pods-Chatee.release.xcconfig"; sourceTree = "<group>"; };
+		9CAD6E08E15F779CD416A5F1 /* Pods-Chatee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatee.debug.xcconfig"; path = "Target Support Files/Pods-Chatee/Pods-Chatee.debug.xcconfig"; sourceTree = "<group>"; };
 		D124CE282407C9B500D1A964 /* Chatee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D124CE2B2407C9B500D1A964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D124CE2D2407C9B500D1A964 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		D124CE492407C9B600D1A964 /* ChateeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChateeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D124CE4D2407C9B600D1A964 /* ChateeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChateeUITests.swift; sourceTree = "<group>"; };
 		D124CE4F2407C9B600D1A964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D124CE5B2407D36900D1A964 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F91E778AF2BC0993B772CD03 /* Pods_Chatee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chatee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1096214E5371A06D84364D /* Pods_Chatee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24CE145270B3ACA5635A412F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91E778AF2BC0993B772CD03 /* Pods_Chatee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B725B2CF87A10222257FA50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CAD6E08E15F779CD416A5F1 /* Pods-Chatee.debug.xcconfig */,
+				463A3358EFD38D08493ED072 /* Pods-Chatee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D124CE1F2407C9B500D1A964 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,8 @@
 				D124CE412407C9B600D1A964 /* ChateeTests */,
 				D124CE4C2407C9B600D1A964 /* ChateeUITests */,
 				D124CE292407C9B500D1A964 /* Products */,
+				7B725B2CF87A10222257FA50 /* Pods */,
+				24CE145270B3ACA5635A412F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +132,7 @@
 				D124CE342407C9B600D1A964 /* Assets.xcassets */,
 				D124CE362407C9B600D1A964 /* LaunchScreen.storyboard */,
 				D124CE392407C9B600D1A964 /* Info.plist */,
+				D124CE5B2407D36900D1A964 /* GoogleService-Info.plist */,
 			);
 			path = Chatee;
 			sourceTree = "<group>";
@@ -135,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D124CE522407C9B600D1A964 /* Build configuration list for PBXNativeTarget "Chatee" */;
 			buildPhases = (
+				C6098BB1497EBEAA6D4E45B5 /* [CP] Check Pods Manifest.lock */,
 				D124CE242407C9B500D1A964 /* Sources */,
 				D124CE252407C9B500D1A964 /* Frameworks */,
 				D124CE262407C9B500D1A964 /* Resources */,
+				1150D7144928B93CE761DD61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D124CE382407C9B600D1A964 /* LaunchScreen.storyboard in Resources */,
+				D124CE5C2407D36900D1A964 /* GoogleService-Info.plist in Resources */,
 				D124CE352407C9B600D1A964 /* Assets.xcassets in Resources */,
 				D124CE332407C9B500D1A964 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +283,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1150D7144928B93CE761DD61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatee/Pods-Chatee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chatee/Pods-Chatee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chatee/Pods-Chatee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6098BB1497EBEAA6D4E45B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chatee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D124CE242407C9B500D1A964 /* Sources */ = {
@@ -432,6 +504,7 @@
 		};
 		D124CE532407C9B600D1A964 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CAD6E08E15F779CD416A5F1 /* Pods-Chatee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +522,7 @@
 		};
 		D124CE542407C9B600D1A964 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463A3358EFD38D08493ED072 /* Pods-Chatee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
